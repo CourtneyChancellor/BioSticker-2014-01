@@ -24,7 +24,7 @@
 %\usepackage{gastex}
 \usepackage[latin1]{inputenc}   %accents 8 bits dans le source
 %\usepackage[english]{algorithme}
-%\usepackage[T1]{fontenc} %pour un beau PDF sous Linux ; à retirer sous Mac 
+%\usepackage[T1]{fontenc} %pour un beau PDF sous Linux ; ï¿½ retirer sous Mac 
 \usepackage[english]{babel}
 \usepackage{tabularx}
 %\usepackage{ulem}  % Pour l'attribut barre
@@ -221,11 +221,11 @@ minimum size=10pt, outer sep=0, font=\scriptsize, draw=none]
 \newcommand{\prefl}[1]{\ifmmode^{\diamond}\mspace{-2mu}#1\else$^{\bullet}\!\!#1$\fi}
 %\newcommand{\ie}{\emph{i.e.}\xspace}
 \newcommand{\To}[1]{\stackrel{#1}{\rightarrow}}
-\newcommand{\setN}{\mathbb N} % à utiliser en mode math{\'e}matique
-\newcommand{\setR}{\mathbb R} % à utiliser en mode math{\'e}matique
-\newcommand{\setB}{\mathbb B} % à utiliser en mode math{\'e}matique
-\newcommand{\setZ}{\mathbb Z} % à utiliser en mode math{\'e}matique
-\newcommand{\setQ}{\mathbb Q} % à utiliser en mode math{\'e}matique
+\newcommand{\setN}{\mathbb N} % ï¿½ utiliser en mode math{\'e}matique
+\newcommand{\setR}{\mathbb R} % ï¿½ utiliser en mode math{\'e}matique
+\newcommand{\setB}{\mathbb B} % ï¿½ utiliser en mode math{\'e}matique
+\newcommand{\setZ}{\mathbb Z} % ï¿½ utiliser en mode math{\'e}matique
+\newcommand{\setQ}{\mathbb Q} % ï¿½ utiliser en mode math{\'e}matique
 \newcommand{\montilde}{$\sim$}
 \newcommand{\tval}[1]{\textbf{#1}}
 
@@ -260,11 +260,11 @@ minimum size=10pt, outer sep=0, font=\scriptsize, draw=none]
 {Courtney \textsc{Chancellor}, Maxime \textsc{Folschette}, Morgan \textsc{Magnin} \\
 \texttt{maxime.folschette} $\vert$ \texttt{maxime.folschette} $\vert$ \texttt{morgan.magnin @irccyn.ec-nantes.fr} \\
 \textbf{Joint work with:} 
-K.Inoue, L. Paulevé, O. Roux 
+K.Inoue, L. Paulevï¿½, O. Roux 
 }
 \institute[IRCCyN]{
 \structure{
-École Centrale de Nantes - IRCCyN -  \textit{MeForBio team} 
+ï¿½cole Centrale de Nantes - IRCCyN -  \textit{MeForBio team} 
 }
 
 }
@@ -305,6 +305,8 @@ K.Inoue, L. Paulevé, O. Roux
 \input{parts/bio_2_ph.tex}
 \subsection{Tool for analyzing Process Hitting: pint}
 \input{parts/ph_pint.tex}
+\subsection{Extending Analysis Tools}
+\input{parts/stoch.tex}
 \section[Information inference]{Inferring information on the biological model thanks to the Process Hitting}
 \input{parts/inf.tex}
 \subsection{Interaction Graph Inference}
